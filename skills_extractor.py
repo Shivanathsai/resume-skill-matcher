@@ -1,10 +1,6 @@
-import spacy
 import PyPDF2
 import re
 from typing import List, Dict
-
-# Load spaCy model
-nlp = spacy.load("en_core_web_sm")
 
 # Comprehensive tech skills dictionary
 TECH_SKILLS = {
